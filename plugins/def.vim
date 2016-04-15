@@ -14,6 +14,7 @@ Plug 'hail2u/vim-css3-syntax'
 Plug 'junegunn/vim-easy-align'
 Plug 'maksimr/vim-jsbeautify', { 'do' : 'git submodule update --init --recursive' }
 Plug 'marijnh/tern_for_vim', { 'do' : 'npm install' }
+Plug 'mattn/emmet-vim'
 Plug 'maxbrunsfeld/vim-yankstack'
 Plug 'moll/vim-node'
 Plug 'othree/html5.vim'
