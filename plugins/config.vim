@@ -59,6 +59,15 @@ let g:airline_powerline_fonts=1
 " to avoid issues with fugitive
 let g:EditorConfig_exclude_patterns = ['fugitive://.*']
 
+" [> fugitive <]
+" Write COMMIT_EDITMSG and push to current branch
+function! PushToCurrentBranch()
+  exe ":Gwrite"
+  let branch = fugitive#statusline()
+  let branch = substitute(branch, '\c\v\[?GIT\(([a-z0-9\-_\./:]+)\)\]?', $BRANCH.' \1', 'g')
+  exe ":Git push origin" . branch
+ endfunction
+command Gp call PushToCurrentBranch()
 
 " [> Syntastic <]
 
