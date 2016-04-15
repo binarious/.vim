@@ -67,7 +67,8 @@ function! PushToCurrentBranch()
   let branch = substitute(branch, '\c\v\[?GIT\(([a-z0-9\-_\./:]+)\)\]?', $BRANCH.' \1', 'g')
   exe ":Git push origin" . branch
  endfunction
-command Gp call PushToCurrentBranch()
+" map Gp to call the function
+command! Gp call PushToCurrentBranch()
 
 " [> Syntastic <]
 
