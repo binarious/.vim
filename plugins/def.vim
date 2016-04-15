@@ -12,10 +12,12 @@ Plug 'elzr/vim-json'
 Plug 'goatslacker/mango.vim'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'junegunn/vim-easy-align'
+Plug 'majutsushi/tagbar'
 Plug 'maksimr/vim-jsbeautify', { 'do' : 'git submodule update --init --recursive' }
 Plug 'marijnh/tern_for_vim', { 'do' : 'npm install' }
 Plug 'mattn/emmet-vim'
 Plug 'maxbrunsfeld/vim-yankstack'
+Plug 'mileszs/ack.vim'
 Plug 'moll/vim-node'
 Plug 'othree/html5.vim'
 Plug 'othree/javascript-libraries-syntax.vim'
