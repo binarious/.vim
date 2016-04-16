@@ -34,7 +34,7 @@ let g:NERDTreeShowHidden=1
 " let g:NERDTreeMouseMode=3
 
 " ignored files
-let g:NERDTreeIgnore=['\.swp$', '\~$']
+let g:NERDTreeIgnore=['\.swp$', '\~$', '\.git$', '\.DS_Store$']
 nnoremap <c-n> :NERDTreeToggle<cr>
 
 
