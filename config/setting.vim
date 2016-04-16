@@ -41,7 +41,7 @@ set ttyfast
 
 " copy/paste
 "set paste
-set clipboard=unnamedplus
+set clipboard=unnamed
 
 " folding manual
 set foldmethod=manual
