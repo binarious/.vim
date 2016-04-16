@@ -8,6 +8,12 @@
 let g:mapleader = ","
 let g:localmapleader = "\\"
 
+" remap split navigation to ctrl+/hjkl/
+nnoremap <C-j> <C-w><C-j>
+nnoremap <C-k> <C-w><C-k>
+nnoremap <C-l> <C-w><C-l>
+nnoremap <C-h> <C-w><C-h>
+
 " move the current line below
 nnoremap <leader>- ddp
 
@@ -25,9 +31,6 @@ nnoremap <S-left> :tabp<CR>
 "  U 	 : uppercase selection
 "  i 	 : back to insert mode
 inoremap <c-u> <esc>viwUi
-
-" remove last search highlight
-nnoremap <C-l> :nohlsearch<CR><C-l>
 
 " Wrap a word in double quotes
 nnoremap <leader>" viw<esc>a"<esc>hbi"<esc>lel
