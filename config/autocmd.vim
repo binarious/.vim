@@ -19,3 +19,5 @@ autocmd BufRead,BufNewFile .jshintrc setfiletype json
 "autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 
+" Remove trailing whitespaces on save
+autocmd BufWritePre * :%s/\s\+$//e
