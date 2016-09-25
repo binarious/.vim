@@ -31,5 +31,10 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'ynkdir/vim-vimlparser'
+" TypeScript specific
+Plug 'leafgarland/typescript-vim'
+Plug 'Quramy/vim-js-pretty-template'
+Plug 'Shougo/vimproc.vim'
+Plug 'Quramy/tsuquyomi'
 
 call plug#end()

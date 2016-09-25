@@ -23,7 +23,7 @@ color mango
 set smartindent
 set autoindent
 set copyindent
-set shiftwidth=4
+set shiftwidth=2
 set shiftround
 set backspace=indent,eol,start
 set smarttab
